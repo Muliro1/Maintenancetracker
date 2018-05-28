@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>User Requests page</title>
+	<link rel = "stylesheet" type = "text/css" href = style.css>
+</head>
+<body>
+	<h1>FILL IN THIS FORM WITH THE REPAIR OR MAINTENANCE INFORMATION</h1>
+<form action = "post">
+	<div>
+	<fieldset>
+		<legend>MAINTENANCE/REPAIR INFORMATION</legend>
+		FirstName:<input type = "text" name = "firstname" required>
+		LastName:<input type = "text" name = "lastname" required>
+		RequestType<select name = "requests">
+			<option value = "maintenance">Maintenance</option>
+			<option value = "repair">Repair</option>
+		</select>
+		Urgency:<select name = "urgency">
+			<option name = "green">Green</option>
+			<option name = "yellow">Yellow</option>
+			<option name = "Red">Red</option>
+		</select>
+		<textarea> type a short description here</textarea>
+		<input type = "submit">
+	</fieldset>
+</div>
+</form>
+</body>
+</html>

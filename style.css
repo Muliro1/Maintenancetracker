@@ -1,0 +1,24 @@
+div input {
+	display:block;
+	margin:10px;
+} 
+
+h1{
+	text-align:center;
+	text-decoration:underline;
+	font-family:"Times New Roman", Times, serif;
+	font-size:1vw;
+}
+
+body{
+	background-color:LightGray;
+}
+
+
+div select {
+	display:block;
+	margin:10px;
+} 
+
+
+
